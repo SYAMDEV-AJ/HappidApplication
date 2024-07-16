@@ -120,6 +120,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:layout_marginTop="15dp"
                             android:layout_marginBottom="10dp"
                             android:fontFamily="@font/montserratmedium"
                             android:text="Last Name"
@@ -149,6 +150,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:layout_marginTop="15dp"
                             android:layout_marginBottom="10dp"
                             android:fontFamily="@font/montserratmedium"
                             android:text="Phone"
@@ -179,7 +181,7 @@
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="12dp"
+                            android:layout_marginTop="15dp"
                             android:layout_marginBottom="12dp">
 
 
@@ -190,7 +192,7 @@
                                 <TextView
                                     android:id="@+id/btn_geolocation"
                                     android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
+                                    android:layout_height="50dp"
                                     android:background="@drawable/location_bg"
                                     android:fontFamily="@font/montserratregular"
                                     android:gravity="center|start"
@@ -230,6 +232,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:layout_marginTop="15dp"
                             android:layout_marginBottom="10dp"
                             android:fontFamily="@font/montserratmedium"
                             android:text="Post Code"
@@ -250,6 +253,7 @@
                                 android:layout_height="match_parent"
                                 android:background="@null"
                                 android:fontFamily="@font/montserratmedium"
+                                android:hint="Select post code or address"
                                 android:inputType="text"
                                 android:paddingStart="15dp"
                                 android:textColor="@color/black"
