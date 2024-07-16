@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HappidApplication</string>
+    <string name="intro">O On-Time Departures.Pay just for your seat. No Refusal from our end. Spacious &amp; Comfortable Seating. Female passengers safety standards. Onboard Refreshments. Cab Tracking through Maps</string>
+    <string name="enter_mob_no">Enter Your Mobile \nNumber</string>
+    <string name="enter_otp_title">Enter Your \nVerification Code</string>
+    <string name="enter_otp_send">We Have sent the code verification to your mobile number</string>
+
+</resources>
