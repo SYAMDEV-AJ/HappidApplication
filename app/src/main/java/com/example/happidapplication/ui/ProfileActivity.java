@@ -421,7 +421,7 @@ public class ProfileActivity extends AppCompatActivity {
 
     private void retrofitcall() {
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://uatonpay.manappuram.com/mobess/ESSWebService.asmx/")
+                .baseUrl("https://mocki.io/v1/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 

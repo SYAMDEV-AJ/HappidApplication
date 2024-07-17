@@ -28,13 +28,15 @@ public class OTPverificationActivity extends AppCompatActivity {
 
     ActivityOtpVerificationBinding binding;
 
-    String otp = "";
+    String otp = "", mobilenumber = "";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_otp_verification);
         otp = getIntent().getStringExtra("generatedOTP");
+        mobilenumber = getIntent().getStringExtra("mobilenumber");
+        binding.editmob.setText(mobilenumber);
 
         showOtpPopup(otp);
         otpvalidation();

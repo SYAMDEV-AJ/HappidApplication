@@ -11,7 +11,7 @@ import retrofit2.http.POST;
 
 public interface APIInterface {
 
-    @POST("getLeaveDetails")
+    @POST("c5acbf88-9c7f-4108-ba69-e83dbdddd37c")
     Call<SubmitResponse> submit(@Body SubmitRequest loginrequest);
 }
 

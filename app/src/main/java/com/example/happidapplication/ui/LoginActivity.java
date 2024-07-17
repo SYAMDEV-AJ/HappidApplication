@@ -91,6 +91,7 @@ public class LoginActivity extends AppCompatActivity {
 
                     Intent intent = new Intent(LoginActivity.this, OTPverificationActivity.class);
                     intent.putExtra("generatedOTP", generatedOTP);
+                    intent.putExtra("mobilenumber", binding.mobnumber.getText().toString());
                     startActivity(intent);
 //                    showOtpPopup(generatedOTP);
                 }
